@@ -3,9 +3,9 @@ criaturas = []
 
 # input para cada monstro até termos 3
 for i in range(3):
-    nome = input("Nome: ")
-    vida = int(input("Vida: "))
-    nível = int(input("Nível: "))
+    nome = input()
+    vida = int(input())
+    nível = int(input())
         
     #organiza os monstros
     criaturas.append([nome, (vida, nível)])
