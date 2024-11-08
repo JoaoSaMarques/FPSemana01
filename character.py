@@ -5,3 +5,7 @@ for i in range(3):
     vida = input("Vida: ")
     nível = input("Nível: ")
     
+criaturas.append([nome, (vida, nível)])
+
+print(criaturas)
+
